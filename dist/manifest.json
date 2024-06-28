@@ -1,5 +1,5 @@
 {
-    "name": "Simple Toggle Sites",
+    "name": "Block Toggle Sites",
     "version": "1.0.0",
     "description": "A very basic extension to quickly block or allow a list of websites",
     "permissions":[

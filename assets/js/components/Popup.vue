@@ -27,7 +27,7 @@ export default{
             this.list = result.toggleSitesList;
         });
     },
-    method:{
+    methods:{
         setActive(active){
             this.active = active;
             chrome.storage.sync.set({
@@ -36,7 +36,7 @@ export default{
         },
         saveList(){
             chrome.storage.sync.set({
-                totggleSitesList: this.list
+                toggleSitesList: this.list
             },()=>{});
         }
     }
